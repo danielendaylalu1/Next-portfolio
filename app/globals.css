@@ -17,3 +17,6 @@ body {
   font-family: "Rubik", sans-serif;
   font-optical-sizing: auto;
 }
+.nav-links:hover + .nav-link-text {
+  display: block;
+}
