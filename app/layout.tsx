@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBlog, faCode, faRocket } from "@fortawesome/free-solid-svg-icons";
-import { faAddressCard } from "@fortawesome/free-solid-svg-icons/faAddressCard";
 import Navbar from "@/components/Navbar";
 import Wellcome from "@/components/Wellcome";
 import { syncopate } from "./fonts";
@@ -26,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${syncopate.variable}`}>
-      <body className={inter.className}>
+      <body>
         <Wellcome />
         <div className="flex h-dvh">
           <Navbar />

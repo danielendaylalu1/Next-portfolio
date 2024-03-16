@@ -11,7 +11,7 @@ module.exports = {
         primary: "#eeeeee",
         secondary: "#bbbbbb",
         tertiary: "#888888",
-        fourth: "#616060",
+        fourth: "#494949a9",
       },
     },
   },

@@ -13,7 +13,11 @@ body {
   width: 100dvw;
   overflow-x: hidden;
   height: 100%;
-  font-family: var(--syncopate--);
+  font-family: var(--font-syncopate);
+  /* font-weight: 700; */
+}
+.syncopate {
+  font-family: var(--font-syncopate);
 }
 .nav-links:hover + .nav-link-text {
   display: block;
