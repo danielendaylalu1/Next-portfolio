@@ -5,6 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBlog, faCode, faRocket } from "@fortawesome/free-solid-svg-icons";
 import { faAddressCard } from "@fortawesome/free-solid-svg-icons/faAddressCard";
 import Navbar from "@/components/Navbar";
+import Wellcome from "@/components/Wellcome";
+import { syncopate } from "./fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,8 +25,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${syncopate.variable}`}>
       <body className={inter.className}>
+        <Wellcome />
         <div className="flex h-dvh">
           <Navbar />
           <div className="w-[100%] flex justify-center align-middle">
