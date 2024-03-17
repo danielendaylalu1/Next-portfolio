@@ -13,14 +13,13 @@ body {
   width: 100dvw;
   overflow-x: hidden;
   height: 100%;
-  font-family: var(--font-syncopate);
   /* font-weight: 700; */
 }
 div::-webkit-scrollbar {
   width: 0;
 }
-.syncopate {
-  font-family: var(--font-syncopate);
+.orbitron {
+  font-family: var(--font-orbitron);
 }
 .nav-links:hover + .nav-link-text {
   display: block;

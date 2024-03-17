@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 // import Wellcome from "@/components/Wellcome";
-import { syncopate } from "./fonts";
+import { orbitron } from "./fonts";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${syncopate.variable}`}>
+    <html lang="en" className={`${orbitron.variable}`}>
       <body>
         {/* <Wellcome /> */}
         <div className="flex h-dvh">

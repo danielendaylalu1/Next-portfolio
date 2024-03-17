@@ -1,8 +1,8 @@
-import { Syncopate } from "next/font/google";
+import { Orbitron } from "next/font/google";
 
-export const syncopate = Syncopate({
+export const orbitron = Orbitron({
   weight: ["400", "700"],
-  variable: "--font-syncopate",
+  variable: "--font-orbitron",
   subsets: ["latin"],
   display: "swap",
 });
