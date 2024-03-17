@@ -21,6 +21,15 @@ const Projects = () => {
         live: "https://music-explore-eight.vercel.app/",
       },
     },
+    {
+      year: "2023",
+      name: "Shoes store landing page. (chama-store)",
+      desc: "A simple shoes tore landing page website with a user friendly and responsive design implementation.",
+      links: {
+        github: "https://github.com/danielendaylalu1/chamaStore",
+        live: "https://chamastore.onrender.com/",
+      },
+    },
   ];
   return (
     <div className="flex flex-col gap-16 py-4">

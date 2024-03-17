@@ -1,7 +1,9 @@
 "use client";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import Image from "next/image";
 import React from "react";
+import handWave from "../assets/gifs/handwave.gif";
 
 const Wellcome = () => {
   useGSAP(() => {
@@ -66,6 +68,7 @@ const Wellcome = () => {
       className="wellcome-box flex justify-center items-center absolute top-0 left-[-100%] w-[100%] h-[100%] z-10 bg-slate-950"
       data-splitting
     >
+      <Image src={handWave} alt="hand wave" className="w-[100px] text-center" />
       <h1 id="wellcome-header" className="text-[4rem] text-white opacity-0 ">
         Wellcome{" "}
         <span className="text-secondary block text-[1.5rem] text-center">

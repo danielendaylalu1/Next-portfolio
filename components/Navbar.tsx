@@ -15,7 +15,7 @@ const Navbar = () => {
     {
       icon: <CiUser style={iconStyle} className="nav-links" />,
       name: "about",
-      link: "/#about",
+      link: "/about",
     },
     {
       icon: <IoIosCode style={iconStyle} className="nav-links" />,
@@ -25,7 +25,7 @@ const Navbar = () => {
     {
       icon: <PiPackageThin style={iconStyle} className="nav-links" />,
       name: "projects",
-      link: "/#projects",
+      link: "/projects",
     },
     {
       icon: <PiArticleThin style={iconStyle} className="nav-links" />,
