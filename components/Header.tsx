@@ -8,7 +8,7 @@ const Header = () => {
         <Image src={profileImg} alt="Daniel Endaylalu" className="w-[95%]" />
       </div>
 
-      <div className="header-content flex flex-col gap-2">
+      <div className="header-content flex flex-col gap-2 py-4">
         <h1 className="text-primary text-3xl">Daniel Endaylalu</h1>
         <h3 className="text-secondary text-base px-1">
           Full-stack web developer.

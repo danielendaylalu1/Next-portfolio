@@ -27,7 +27,7 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="skills flex flex-col gap-16">
+    <div className="skills flex flex-col gap-16 py-4">
       <h2 className="text-primary text-xl">Skills</h2>
       {skillsData.map((skillData, indx) => (
         <SkillCard skillData={skillData} key={indx} />
