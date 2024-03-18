@@ -10,6 +10,11 @@ const About = () => {
         in developing attractive , dynamic and functional website using the
         latest web frameworks and libraries.
       </p>
+      <p className="text-secondary text-base px-1">
+        I possess in-depth knowledge of popular front end and back end
+        frameworks and libraries such as ✅React, ✅Next.js, ✅Express.js,
+        ✅Mongoose and more.
+      </p>
       <a href="/about" className="text-sky-400 text-sm px-1">
         Read more
       </a>

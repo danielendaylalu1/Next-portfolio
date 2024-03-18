@@ -47,13 +47,16 @@ const Wellcome = () => {
         right: "0%",
         width: "100%",
       })
+      .to("#hand", {
+        opacity: 0,
+      })
       .to("#wellcome-dot", {
-        delay: 0.2,
-        duration: 1,
+        delay: 0.1,
+        duration: 0.5,
         opacity: 0,
       })
       .to("#wellcome", {
-        duration: 1,
+        duration: 0.5,
         opacity: 0,
         delay: 0.5,
         // borderRadius: "100%",
@@ -68,7 +71,12 @@ const Wellcome = () => {
       className="wellcome-box flex justify-center items-center absolute top-0 left-[-100%] w-[100%] h-[100%] z-10 bg-slate-950"
       data-splitting
     >
-      <Image src={handWave} alt="hand wave" className="w-[100px] text-center" />
+      <Image
+        src={handWave}
+        alt="hand wave"
+        className="w-[100px] text-center"
+        id="hand"
+      />
       <h1
         id="wellcome-header"
         className="sm:text-[4rem] text-[2.25rem] text-white opacity-0 "

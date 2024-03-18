@@ -30,7 +30,7 @@ const TestimonialCard: FC<TestimonialCardProps> = ({ testimonialData }) => {
     <Card>
       <div className="flex gap-1 card-header">
         {[...Array(testimonialData.rating)].map((_, indx) => (
-          <FaStar key={indx} style={{ ...iconStyle, color: "#4fab4a" }} />
+          <FaStar key={indx} className="text-green-300 text-base" />
         ))}
       </div>
 
