@@ -15,8 +15,10 @@ export interface ContactCardProps {
 
 const ContactCard: FC<ContactCardProps> = ({ contactData }) => {
   return (
-    <div className="flex justify-between items-center gap-4 px-8">
-      <h3 className="text-sm text-tertiary">{contactData.name}</h3>
+    <div className="flex justify-between items-center gap-4 pl-8">
+      <h3 className="text-sm text-tertiary w-[40%] card-header">
+        {contactData.name}
+      </h3>
       <div className="flex flex-col gap-7 w-[60%] card-content">
         <a
           href={contactData.link.link}

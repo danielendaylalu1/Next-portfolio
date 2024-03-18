@@ -40,13 +40,16 @@ div::-webkit-scrollbar {
     width: 80dvw;
     background-color: #222;
     left: -100%;
-    transition: all 0.8s ease-out;
+    transition: all 0.65s ease-out;
   }
   .shownav {
     left: 0;
   }
   .card-content {
     width: 80%;
+  }
+  .card-header {
+    width: 20%;
   }
 }
 @media only screen and (max-width: 365px) {

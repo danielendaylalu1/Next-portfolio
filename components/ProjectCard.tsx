@@ -23,8 +23,10 @@ const iconStyle = {
 
 const ProjectCard: FC<ProjectCardProps> = ({ projectData }) => {
   return (
-    <div className="flex justify-between gap-4 px-8">
-      <h3 className="text-sm text-tertiary">{projectData.year}</h3>
+    <div className="flex justify-between gap-4 pl-8">
+      <h3 className="text-sm text-tertiary w-[40%] card-header">
+        {projectData.year}
+      </h3>
       <div className="flex flex-col gap-4 w-[60%] card-content">
         <h3 className="text-base text-primary">{projectData.name}</h3>
         <p className="text-sm text-secondary">{projectData.desc}</p>
