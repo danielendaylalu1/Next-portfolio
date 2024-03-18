@@ -3,6 +3,8 @@ import { FC } from "react";
 import { FaStar } from "react-icons/fa";
 
 import { GoLinkExternal } from "react-icons/go";
+import Card from "./Card";
+import CardContent from "./CardContent";
 
 export interface TestimonialData {
   rating: number;
@@ -25,14 +27,14 @@ const iconStyle = {
 
 const TestimonialCard: FC<TestimonialCardProps> = ({ testimonialData }) => {
   return (
-    <div className="flex justify-between gap-4 pl-8">
+    <Card>
       <div className="flex gap-1 card-header">
         {[...Array(testimonialData.rating)].map((_, indx) => (
           <FaStar key={indx} style={{ ...iconStyle, color: "#4fab4a" }} />
         ))}
       </div>
 
-      <div className="flex flex-col gap-4 w-[60%] card-content">
+      <CardContent>
         <h3 className="text-base text-primary">{testimonialData.name}</h3>
         <h3 className="text-sm text-tertiary">{testimonialData.platform}</h3>
         <p className="text-sm text-secondary">{testimonialData.desc}</p>
@@ -45,8 +47,8 @@ const TestimonialCard: FC<TestimonialCardProps> = ({ testimonialData }) => {
             <GoLinkExternal style={iconStyle} />
           </a>
         </div>
-      </div>
-    </div>
+      </CardContent>
+    </Card>
   );
 };
 

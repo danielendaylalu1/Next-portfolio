@@ -1,5 +1,8 @@
 import React, { FC } from "react";
 import { GoArrowUpRight } from "react-icons/go";
+import Card from "./Card";
+import CardHeader from "./CardHeader";
+import CardContent from "./CardContent";
 
 export interface ContactData {
   name: string;
@@ -15,11 +18,9 @@ export interface ContactCardProps {
 
 const ContactCard: FC<ContactCardProps> = ({ contactData }) => {
   return (
-    <div className="flex justify-between items-center gap-4 pl-8">
-      <h3 className="text-sm text-tertiary w-[40%] card-header">
-        {contactData.name}
-      </h3>
-      <div className="flex flex-col gap-7 w-[60%] card-content">
+    <Card>
+      <CardHeader>{contactData.name}</CardHeader>
+      <CardContent>
         <a
           href={contactData.link.link}
           target="_blank"
@@ -35,8 +36,8 @@ const ContactCard: FC<ContactCardProps> = ({ contactData }) => {
             }}
           />
         </a>
-      </div>
-    </div>
+      </CardContent>
+    </Card>
   );
 };
 

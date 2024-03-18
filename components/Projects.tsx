@@ -6,6 +6,7 @@ const Projects = () => {
     {
       year: "2022",
       name: "Story and Review sharing web app. (weshare)",
+      skills: ["React", "Redux-toolkit", "Node.js", "Express", "MongoDB"],
       desc: "WeShare is a fullstack website that facilitates seamless user interaction by allowing members to post detailed food and place reviews, follow each other, and contribute to vibrant discussions through comments.The platform embodies a user-centric design, prioritizing an intuitive interface for optimal user experience.",
       links: {
         github: "https://github.com/danielendaylalu1/weShare",
@@ -15,6 +16,14 @@ const Projects = () => {
     {
       year: "2024",
       name: "Music Library Management System. (music-explore)",
+      skills: [
+        "React",
+        "Redux-toolkit",
+        "Redux-Saga",
+        "Node.js",
+        "Express",
+        "MongoDB",
+      ],
       desc: "A MERN stack application that allows users to manage their music library. Features include adding, updating and deleting songs, and filtering by genre, artist, and album. The backend is built with Express.js and Node.js, with MongoDB for data storage.",
       links: {
         github: "https://github.com/danielendaylalu1/MusicExplore",
@@ -24,6 +33,7 @@ const Projects = () => {
     {
       year: "2023",
       name: "Shoes store landing page. (chama-store)",
+      skills: ["React", "Redux-toolkit"],
       desc: "A simple shoes tore landing page website with a user friendly and responsive design implementation.",
       links: {
         github: "https://github.com/danielendaylalu1/chamaStore",
