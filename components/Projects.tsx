@@ -10,7 +10,7 @@ const Projects = () => {
       desc: "D.E is my personal portfolio a digital canvas where I showcase my tech journey. Explore my projects, dive into my skills, and read tech-focused blog posts. Crafted with Next.js, styled with Tailwind, and sprinkled with Gsap magic.",
       links: {
         github: "https://github.com/danielendaylalu1/Next-portfolio",
-        live: "https://music-explore-eight.vercel.app/",
+        live: "/",
       },
     },
     {

@@ -27,6 +27,9 @@ div::-webkit-scrollbar {
 .wellcome-box {
   margin: 0 auto;
 }
+.imageContainer {
+  transition: all 1s ease-in-out;
+}
 
 @media only screen and (min-width: 545px) {
   .mobile-menu {

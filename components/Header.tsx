@@ -4,8 +4,12 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="header flex gap-6 items-center">
-      <div className="w-[92px] h-[92px] rounded-full overflow-hidden flex items-center justify-center border border-secondary">
-        <Image src={profileImg} alt="Daniel Endaylalu" className="w-[95%]" />
+      <div className="imageContainer w-[92px] h-[92px] rounded-full overflow-hidden flex items-center justify-center border border-secondary cursor-pointer">
+        <Image
+          src={profileImg}
+          alt="Daniel Endaylalu"
+          className="w-[95%] bg-center"
+        />
       </div>
 
       <div className="header-content flex flex-col gap-2 py-4">
