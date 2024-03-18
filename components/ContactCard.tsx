@@ -22,7 +22,7 @@ const ContactCard: FC<ContactCardProps> = ({ contactData }) => {
           href={contactData.link.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-xl self-start flex"
+          className="text-lg self-start flex"
         >
           {contactData.link.icon}{" "}
           <GoArrowUpRight

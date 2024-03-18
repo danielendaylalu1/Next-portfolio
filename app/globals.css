@@ -27,3 +27,22 @@ div::-webkit-scrollbar {
 .wellcome-box {
   margin: 0 auto;
 }
+
+@media only screen and (min-width: 545px) {
+  .mobile-menu {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 545px) {
+  .nav-bar {
+    position: absolute;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: #222;
+    left: -100%;
+    transition: all 0.5s ease-out;
+  }
+  .shownav {
+    left: 0;
+  }
+}

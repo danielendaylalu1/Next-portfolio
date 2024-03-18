@@ -2,10 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-// import Wellcome from "@/components/Wellcome";
-import { orbitron } from "./fonts";
 
-const inter = Inter({ subsets: ["latin"] });
+import { orbitron } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Daniel E. - Fullstack-developer",
@@ -27,6 +25,7 @@ export default function RootLayout({
         {/* <Wellcome /> */}
         <div className="flex h-dvh">
           <Navbar />
+
           <div className="w-[100%] flex justify-center align-middle px-4 py-8 overflow-y-scroll">
             {children}
           </div>
