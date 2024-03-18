@@ -25,7 +25,7 @@ const ProjectCard: FC<ProjectCardProps> = ({ projectData }) => {
   return (
     <div className="flex justify-between gap-4 px-8">
       <h3 className="text-sm text-tertiary">{projectData.year}</h3>
-      <div className="flex flex-col gap-4 w-[60%]">
+      <div className="flex flex-col gap-4 w-[60%] card-content">
         <h3 className="text-base text-primary">{projectData.name}</h3>
         <p className="text-sm text-secondary">{projectData.desc}</p>
         <div className="flex gap-8">

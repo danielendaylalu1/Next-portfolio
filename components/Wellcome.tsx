@@ -69,9 +69,12 @@ const Wellcome = () => {
       data-splitting
     >
       <Image src={handWave} alt="hand wave" className="w-[100px] text-center" />
-      <h1 id="wellcome-header" className="text-[4rem] text-white opacity-0 ">
+      <h1
+        id="wellcome-header"
+        className="sm:text-[4rem] text-[2.25rem] text-white opacity-0 "
+      >
         Wellcome{" "}
-        <span className="text-secondary block text-[1.5rem] text-center">
+        <span className="text-secondary block sm:text-[1.5rem] text-[1.2rem] text-center">
           Daniel Endaylalu
         </span>
       </h1>

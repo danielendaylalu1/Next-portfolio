@@ -37,12 +37,20 @@ div::-webkit-scrollbar {
   .nav-bar {
     position: absolute;
     height: 100dvh;
-    width: 100dvw;
+    width: 80dvw;
     background-color: #222;
     left: -100%;
-    transition: all 0.5s ease-out;
+    transition: all 0.8s ease-out;
   }
   .shownav {
     left: 0;
+  }
+  .card-content {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 365px) {
+  .header-title {
+    font-size: 1.65rem !important;
   }
 }

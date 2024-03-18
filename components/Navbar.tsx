@@ -5,7 +5,7 @@ import { PiArticleThin } from "react-icons/pi";
 import { IoIosCode } from "react-icons/io";
 import { PiPackageThin } from "react-icons/pi";
 import { CiMenuFries } from "react-icons/ci";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { MdClose } from "react-icons/md";
 
 import { useGSAP } from "@gsap/react";
@@ -40,10 +40,10 @@ const Navbar = () => {
       link: "/blogs",
     },
   ];
-
-  useGSAP(() => {}, []);
-
   const [shownav, setShowNav] = useState(false);
+
+  // const links = gsap.utils.toArray(linksRef.current.children);
+
   return (
     <>
       <nav
@@ -55,21 +55,23 @@ const Navbar = () => {
         <a className="text-[1rem] text-primary absolute top-10" href="/">
           D.E
         </a>
-        {navLinks.map((item) => {
-          return (
-            <a
-              className="relative flex items-center"
-              key={item.name}
-              href={item.link}
-              onClick={() => setShowNav(false)}
-            >
-              {item.icon}
-              <p className="nav-link-text text-primary hidden absolute text-[13px] right-[-6.5rem] w-[100px] bg-black px-[10px] text-center py-[5px] rounded-md">
-                {item.name}
-              </p>
-            </a>
-          );
-        })}
+        <div className="flex flex-col gap-8" id="nav-links">
+          {navLinks.map((item) => {
+            return (
+              <a
+                className="relative flex items-center"
+                key={item.name}
+                href={item.link}
+                onClick={() => setShowNav(false)}
+              >
+                {item.icon}
+                <p className="nav-link-text text-primary hidden absolute text-[13px] right-[-6.5rem] w-[100px] bg-black px-[10px] text-center py-[5px] rounded-md">
+                  {item.name}
+                </p>
+              </a>
+            );
+          })}
+        </div>
       </nav>
       <div
         className="mobile-menu absolute bottom-8 left-8 p-3 rounded-full bg-neutral-700 z-100 cursor-pointer"
