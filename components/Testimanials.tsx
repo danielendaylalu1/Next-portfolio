@@ -10,7 +10,7 @@ const Testimonials = () => {
     {
       rating: 5,
       name: "React guy to fix a bug",
-      platform: "Upwork",
+      platform: "Upwork client",
       desc: '"Highly recommend this developer ,he ables to fix my issues in couple of hours only.Hire him right away!!!."',
       links: {
         live: "https://www.upwork.com/freelancers/~01985b6133b24027d0?mp_source=share",
