@@ -14,6 +14,16 @@ const Projects = () => {
       },
     },
     {
+      year: "Apr 15, 2024",
+      name: "Luke Digital Marketing Expert & Dev.",
+      skills: ["Html", "Css", "javascript"],
+      desc: "A personal internet marketer portfolio that i developed for a client to showcase his skills, services and projects.",
+      links: {
+        github: "/",
+        live: "https://im-expert.vercel.app/",
+      },
+    },
+    {
       year: "Feb 2, 2024",
       name: "Music Library Management System. (music-explore)",
       skills: [
