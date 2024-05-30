@@ -14,6 +14,16 @@ const Projects = () => {
       },
     },
     {
+      year: "Mar 21, 2024",
+      name: "Onship landing page",
+      skills: ["React", "Html", "Css"],
+      desc: "Onship landing page. A landing page for a shiping company",
+      links: {
+        github: "https://github.com/danielendaylalu1/onship-landig-page",
+        live: "https://onship-landig-page.vercel.app/",
+      },
+    },
+    {
       year: "Apr 15, 2024",
       name: "Luke Digital Marketing Expert & Dev.",
       skills: ["Html", "Css", "javascript"],
