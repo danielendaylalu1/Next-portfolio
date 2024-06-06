@@ -5,12 +5,12 @@ import Navbar from "@/components/Navbar";
 import { orbitron } from "./fonts";
 
 export const metadata: Metadata = {
-  title: "Daniel E. - Fullstack-developer",
+  title: "Fullstack Developer Portfolio - Daniel Endaylalu.",
   authors: {
     name: "Daniel Endaylalu",
   },
   description:
-    "Daniel Endaylalu Personal portfolio showcasing myself and my projects. React, Next.js , Tailwind, Portfolio",
+    "Daniel Endaylalu’s personal portfolio showcasing React, Next.js, and Tailwind projects.",
 };
 
 export default function RootLayout({
@@ -21,7 +21,6 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${orbitron.variable}`}>
       <body>
-        {/* <Wellcome /> */}
         <div className="flex h-dvh">
           <Navbar />
 
