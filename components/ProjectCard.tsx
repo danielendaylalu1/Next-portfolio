@@ -1,9 +1,9 @@
-import { FC } from "react";
-import { FaGithub } from "react-icons/fa";
-import { GoLinkExternal } from "react-icons/go";
-import CardContent from "./CardContent";
-import CardHeader from "./CardHeader";
-import Card from "./Card";
+import { FC } from 'react';
+import { FaGithub } from 'react-icons/fa';
+import { GoLinkExternal } from 'react-icons/go';
+import CardContent from './CardContent';
+import CardHeader from './CardHeader';
+import Card from './Card';
 
 export interface ProjectData {
   year: string;
@@ -21,8 +21,8 @@ export interface ProjectCardProps {
 }
 
 const iconStyle = {
-  color: "#f1f1f1",
-  fontSize: "1.1rem",
+  color: '#f1f1f1',
+  fontSize: '1.1rem',
 };
 
 const ProjectCard: FC<ProjectCardProps> = ({ projectData }) => {

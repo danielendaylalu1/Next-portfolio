@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import Header from "@/components/Header";
-import About from "@/components/About";
-import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
-import Contact from "@/components/Contact";
-import Wellcome from "@/components/Wellcome";
-import Testimonials from "@/components/Testimanials";
+import Header from '@/components/Header';
+import About from '@/components/About';
+import Skills from '@/components/Skills';
+import Projects from '@/components/Projects';
+import Contact from '@/components/Contact';
+import Wellcome from '@/components/Wellcome';
+import Testimonials from '@/components/Testimanials';
+import WorkExperiance from '@/components/WorkExperiance';
 
 const Home = () => {
   return (
@@ -20,6 +21,8 @@ const Home = () => {
         <About />
         {/* skills section */}
         <Skills />
+        {/* work experiance */}
+        <WorkExperiance />
         {/* projects section */}
         <Projects />
         {/* testimonials section */}
