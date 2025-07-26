@@ -3,7 +3,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import Image from "next/image";
 import React from "react";
-import handWave from "../assets/gifs/handwave.gif";
+import handWave from "/gifs/handwave.gif";
 
 const Wellcome = () => {
   useGSAP(() => {
@@ -72,8 +72,10 @@ const Wellcome = () => {
       data-splitting
     >
       <Image
-        src={handWave}
+        src="/gifs/handwave.gif"
         alt="hand wave"
+        width={100}
+        height={100}
         className="w-[100px] text-center"
         id="hand"
       />

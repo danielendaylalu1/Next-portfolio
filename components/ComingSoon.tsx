@@ -1,5 +1,5 @@
 import Image from "next/image";
-import handWave from "../assets/gifs/handwave.gif";
+import handWave from " /gifs/handwave.gif";
 
 const ComingSoon = () => {
   return (

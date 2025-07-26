@@ -1,4 +1,4 @@
-import profileImg from "../assets/images/profile.png";
+import profileImg from " /images/profile.png";
 import Image from "next/image";
 
 const Header = () => {
@@ -6,8 +6,10 @@ const Header = () => {
     <div className="header flex gap-6 items-center">
       <div className="imageContainer w-[92px] h-[92px] rounded-full overflow-hidden flex items-center justify-center border border-secondary cursor-pointer">
         <Image
-          src={profileImg}
+          src="/images/profile.png"
           alt="Daniel Endaylalu"
+          width={90}
+          height={90}
           className="w-[95%] bg-center"
         />
       </div>
