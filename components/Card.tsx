@@ -5,7 +5,9 @@ interface CardProps {
 }
 
 const Card: FC<CardProps> = ({ children }) => {
-  return <div className="flex justify-between gap-4 pl-8">{children}</div>;
+  return (
+    <div className="flex justify-between gap-4 pl-2 sm:pl-8">{children}</div>
+  );
 };
 
 export default Card;
